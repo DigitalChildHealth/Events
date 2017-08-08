@@ -1,17 +1,26 @@
 {
-  "report": "Organisation Linked Report",
+  "report": "ePCHR Uptake Report",
   "runat": "2017-07-16T19:20:30+00:00",
   "parameters":
   {
+    "from": "2017-01-16T19:20:30+00:00",
+    "to": "2017-01-16T19:20:30+00:00",
+    "interval": "day"
   },
-  "results":
+  "results": 
   {
-    "organisation": "R1C",
-    "name": "LGI",
-    "total": 2,
-    "providers": [
-      {"organisation": "AB4", "name": "St. Elsewhere"},
-      {"organisation": "SD4", "name": "St. Nick's"}
+    "uptakes": [
+      {
+        "date": "2017-07-16",
+        "offered": 27,
+        "accepted": 20,
+        "percentage": 74
+      },
+      {
+        "date": "2017-07-17",
+        "offered": 24,
+        "accepted": 24,
+        "percentage": 100      }
     ]
   }
 }

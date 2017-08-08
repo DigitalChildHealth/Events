@@ -1,5 +1,5 @@
 {
-  "report": "ePCHR Uptake Report",
+  "report": "ePCHR New Report",
   "runat": "2017-07-16T19:20:30+00:00",
   "parameters":
   {
@@ -11,15 +11,15 @@
   {
     "providers": [
       {"organisation": "R1D",
-        "uptakes": [
-          {"date": "2017-07-16", "offered": 27, "accepted": 20, "percentage": 74},
-          {"date": "2017-07-17", "offered": 24, "accepted": 24, "percentage": 100}
+        "new": [
+          {"date": "2017-07-16", "count": 27},
+          {"date": "2017-07-17", "count": 24}
         ]
       }
       {"organisation": "R7Z",
-        "uptakes": [
-          {"date": "2017-07-16", "offered": 27, "accepted": 20, "percentage": 74},
-          {"date": "2017-07-17", "offered": 24, "accepted": 24, "percentage": 100}
+        "new": [
+          {"date": "2017-07-16", "count": 45},
+          {"date": "2017-07-17", "count": 29}
         ]
       }
     ]

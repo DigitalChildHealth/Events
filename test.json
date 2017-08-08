@@ -1,8 +1,26 @@
 {
-  "orgid": "R1C",
-  "name": "Solent NHS Trust",
-  "address": "SOLENT NHS TRUST HEADQUARTERS, HIGHPOINT VENUE, BURSLEDON ROAD, SOUTHAMPTON, HAMPSHIRE, SO19 8BR",
-  "telephone": "0300 123 4156",
-  "email": "communications@solent.nhs.uk",
-  "role": "PROVIDER"
+  "report": "Organisation Report",
+  "runat": "2017-07-16T19:20:30+00:00",
+  "parameters":
+  {
+  },
+  "results":
+  {
+    "total": 37,
+    "roles": [
+      {"role": "ADMINISTRATION", "count": 4},
+      {"role": "COMMISSIONER", "count": 20}
+    ],
+    "commissioners": [
+      {"organisation": "R1C", "name": "LGI", "count": 2, "providers": [
+        {"organisation": "AB4", "name": "St. Elsewhere"},
+        {"organisation": "SD4", "name": "St. Nick's"}
+        ]
+      },
+      {"organisation": "R2D", "name": "SHUH", "count": 1, "providers": [
+        {"organisation": "WD4", "name": "The Grange"}
+        ]
+      }
+    ]
+  }
 }

@@ -1,33 +1,16 @@
 {
-  "report": "Audit Log Report",
-  "runat": "2017-07-16T19:20:30+00:00",
-  "parameters":
+  "userid": "user01",
+  "name": "Test user",
+  "email": "test@test.com",
+  "credentials":
   {
-    "from": "2017-01-16T19:20:30+00:00",
-    "to": "2017-01-16T19:20:30+00:00",
-    "type": ["Error", "Informational"],
-    "user": ["user01", "user02"],
-    "action": ["AUDIT_LOG_REPORT"]
+    "usernamepassword":
+    {
+      "username": "test",
+      "password": "test"
+    },
   },
-  "results": 
-  {
-    "audits": [
-      {
-        "id": "c0fcd984-1cca-43d7-b7ef-f765ec03b643",
-        "type": "Informational",
-        "user": "user01",
-        "action": "ORGANISATION_REPORT",
-        "outcome": "success",
-        "datetime": "2017-07-16T19:20:30+00:00"
-      },
-      {
-        "id": "c0fcd984-1cca-43d7-b7ef-f765ec03b648",
-        "type": "Informational",
-        "user": "user01",
-        "action": "ORGANISATION_REPORT",
-        "outcome": "success",
-        "datetime": "2017-07-24T19:20:30+00:00"
-      }
-    ]
-  }
+  "role": "SYS_ADMIN",
+  "organisation": "org1",
+  "enabled": true
 }

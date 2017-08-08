@@ -1,26 +1,17 @@
 {
-  "report": "Organisation Report",
+  "report": "Organisation Linked Report",
   "runat": "2017-07-16T19:20:30+00:00",
   "parameters":
   {
   },
   "results":
   {
-    "total": 37,
-    "roles": [
-      {"role": "ADMINISTRATION", "count": 4},
-      {"role": "COMMISSIONER", "count": 20}
-    ],
-    "commissioners": [
-      {"organisation": "R1C", "name": "LGI", "count": 2, "providers": [
-        {"organisation": "AB4", "name": "St. Elsewhere"},
-        {"organisation": "SD4", "name": "St. Nick's"}
-        ]
-      },
-      {"organisation": "R2D", "name": "SHUH", "count": 1, "providers": [
-        {"organisation": "WD4", "name": "The Grange"}
-        ]
-      }
+    "organisation": "R1C",
+    "name": "LGI",
+    "total": 2,
+    "providers": [
+      {"organisation": "AB4", "name": "St. Elsewhere"},
+      {"organisation": "SD4", "name": "St. Nick's"}
     ]
   }
 }

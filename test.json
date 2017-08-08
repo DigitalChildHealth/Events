@@ -1,27 +1,9 @@
 {
-  "report": "ePCHR New Report",
-  "runat": "2017-07-16T19:20:30+00:00",
-  "parameters":
-  {
-    "from": "2017-01-16T19:20:30+00:00",
-    "to": "2017-01-16T19:20:30+00:00",
-    "interval": "day"
-  },
-  "results": 
-  {
-    "providers": [
-      {"organisation": "R1D",
-        "new": [
-          {"date": "2017-07-16", "count": 27},
-          {"date": "2017-07-17", "count": 24}
-        ]
-      }
-      {"organisation": "R7Z",
-        "new": [
-          {"date": "2017-07-16", "count": 45},
-          {"date": "2017-07-17", "count": 29}
-        ]
-      }
-    ]
-  }
+  "surname": "Doe",
+  "firstname": ["Jane", "Mary"],
+  "address": "4 The Street, The Town, ABB 678",
+  "dob": "2017-07-16",
+  "sex": "female",
+  "nhsnumber": "1234567890",
+  "delivery": {"organisation": "R1D", "unitno": "gh5656565"}
 }

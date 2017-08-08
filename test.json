@@ -1,9 +1,22 @@
 {
-  "surname": "Doe",
-  "firstname": ["Jane", "Mary"],
-  "address": "4 The Street, The Town, ABB 678",
-  "dob": "2017-07-16",
-  "sex": "female",
-  "nhsnumber": "1234567890",
-  "delivery": {"organisation": "R1D", "unitno": "gh5656565"}
+  "report": "ePCHR Open Report",
+  "runat": "2017-07-16T19:20:30+00:00",
+  "parameters": {},
+  "results": 
+  {
+    "providers": [
+      {"organisation": "R1D",
+        "open": [
+          {"age": "0-1", "count": 27},
+          {"age": "1-2", "count": 24}
+        ]
+      }
+      {"organisation": "R7Z",
+        "open": [
+          {"age": "0-1", "count": 45},
+          {"age": "1-2", "count": 29}
+        ]
+      }
+    ]
+  }
 }

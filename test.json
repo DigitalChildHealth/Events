@@ -1,16 +1,19 @@
 {
-  "userid": "user01",
-  "name": "Test user",
-  "email": "test@test.com",
-  "credentials":
+  "report": "User Report",
+  "runat": "2017-07-16T19:20:30+00:00",
+  "parameters":
   {
-    "usernamepassword":
-    {
-      "username": "test",
-      "password": "test"
-    },
-  },
-  "role": "SYS_ADMIN",
-  "organisation": "org1",
-  "enabled": true
+  }
+  "results":
+  {
+    "total": 45,
+    "roles": [
+      {"role": "SYS_ADMIN", "count": 4},
+      {"role": "COMMISSIONER_ADMIN", "count": 20}
+    ],
+    "organisations": [
+      {"organisation": "R1C", "count": 5},
+      {"organisation": "R2D", "count": 10}
+    ]
+  }
 }
